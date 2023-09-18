@@ -7,10 +7,11 @@ __version__ = "0.0.1"
 
 REPO_NAME = "TextSummarizer-Project"
 AUTHOR_USERNAME = "arishbaig"
-SRC_REPO = "TextSummarizer
+SRC_REPO = "TextSummarizer"
 AUTHOR_EMAIL = "arishbaig@gmail.com"
 
 setuptools.setup(
+   # PYTHONPATH="./src",
     name=REPO_NAME,
     version=__version__,
     author=AUTHOR_USERNAME,
